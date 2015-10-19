@@ -1,209 +1,211 @@
-<!DOCTYPE html>
-<html>
-  <head>
-    <meta charset='utf-8'>
-    <meta http-equiv="X-UA-Compatible" content="chrome=1">
+  <!DOCTYPE html>
+  <html>
+    <head>
+      <meta charset='utf-8'>
+      <meta http-equiv="X-UA-Compatible" content="chrome=1">
 
-    <link rel="stylesheet" type="text/css" href="stylesheets/stylesheet.css" media="screen">
-    <link rel="stylesheet" type="text/css" href="stylesheets/github-dark.css" media="screen">
-    <link rel="stylesheet" type="text/css" href="stylesheets/print.css" media="print">
+      <link rel="stylesheet" type="text/css" href="stylesheets/stylesheet.css" media="screen">
+      <link rel="stylesheet" type="text/css" href="stylesheets/github-dark.css" media="screen">
+      <link rel="stylesheet" type="text/css" href="stylesheets/print.css" media="print">
 
-    <title>XCTF 2016</title>
-  </head>
+      <title>XCTF 2016</title>
+    </head>
 
-  <body>
-    <div class="container">
-    <div class="holder">
-      <marquee><pre class="logo">     
-##     ##          ######  ######## ########     #######    #####      ##    #######  
- ##   ##          ##    ##    ##    ##          ##     ##  ##   ##   ####   ##     ## 
-  ## ##           ##          ##    ##                 ## ##     ##    ##   ##        
-   ###    ####### ##          ##    ######       #######  ##     ##    ##   ########  
-  ## ##           ##          ##    ##          ##        ##     ##    ##   ##     ## 
- ##   ##          ##    ##    ##    ##          ##         ##   ##     ##   ##     ## 
-##     ##          ######     ##    ##          #########   #####    ######  #######  
-  </pre></marquee>
+    <body>
+      <div class="container">
+      <div class="holder">
+        <marquee><pre class="logo">     
+  ##     ##          ######  ######## ########     #######    #####      ##    #######  
+   ##   ##          ##    ##    ##    ##          ##     ##  ##   ##   ####   ##     ## 
+    ## ##           ##          ##    ##                 ## ##     ##    ##   ##        
+     ###    ####### ##          ##    ######       #######  ##     ##    ##   ########  
+    ## ##           ##          ##    ##          ##        ##     ##    ##   ##     ## 
+   ##   ##          ##    ##    ##    ##          ##         ##   ##     ##   ##     ## 
+  ##     ##          ######     ##    ##          #########   #####    ######  #######  
+    </pre></marquee>
+    <style type="text/css">
+      .holder {
+      box-shadow: 0px 0px 5px #999;
+      padding:40px;
+      padding-top:30px;
+      background: black;
+      font-family: "Andale Mono";
+  }
+  .holder p {
+      color:#0F0;
+      font-size:14px;
+      margin:0px;
+      padding:0px;
+  }
+  .holder .title {
+      color:white;
+      font-size:25px;
+      margin-top:0px;
+      margin-bottom:10px;
+  }
+  .holder a {
+      color:#0f0;   
+  }
+    </style>
+
+    </div>
+        <section id="main_content">
+        <section id="intro">
+        <h1> Welcome to X CTF 2016!</h1>
+
+
+  <p>X-CTF 2016 is a cyber security competition initiative by NUS GreyHats that will be held in NUS School of Computing (SoC) on 11th June 2016. In the competition, student teams from various tertiary institutes will compete to solve challenges which are set by an independent body.</p>
+
+  <p>So why wait? Sign up right away at the following link: </p>
+  <a href="http://goo.gl/forms/HXtaZvMHvf">Sign up for X-CTF 2016 </a>
+  </section>
+
+  <hr>
+  <h2> Competition Details </h2>
+  <p>The competition is open to all students from tertiary institutes that offer cyber security course(s). Participants are required to form a team of four to take part in the competition. The team will then have to participate in the qualifiers and two teams from each institution with the top scores will be selected to participate in the competition. It is estimated that 2 teams of 4 students from 11 institutions will be competing in the finals.</p>
+
+  <h3>So what exactly is X-CTF? </h3>
+  <p>“X-CTF” is the abbreviation for “Cross Varsity - Capture The Flag” competition. It is a cyber security competition organized annually in a controlled environment where teams from all tertiary institutes are welcomed to participate in.
+  The competition will be held in the duration of eight hours and each team will be given the same set of challenges to crack in order to retrieve a “flag”. The flag will be converted to points upon submission to the panel and the team with the highest amount of points will emerge as champion.</p>
+
+  <h3>Rules of X-CTF</h3>
+  <p>During the CTF,
+  <li> Do not attack the PCs of other competitors. </li>
+  <li> Do not attack the scoring server. </li>
+  <li> Do not attack anything outside of the CTF environment. </li>
+  <li> Do not delete or modify flags. </li>
+  <li> ARP poisoning or any form of man-in-the-middle attack is prohibited. This action is subject to disqualification. </li>
+  <li> Sharing flags or solutions is prohibited. This action is subject to disqualification. </li>
+  <li> Brute-forcing flags will not be tolerated. </li>
+  <li> Denial of service attacks on any challenge will not be tolerated, unless the challenge calls for such an attack. </li>
+  <li> If you find any bug in the system, let us know. We might give you some bonus points. </li>
+  </p>
+
+  <h2> Timeline of Event </h2>
   <style type="text/css">
-    .holder {
-    box-shadow: 0px 0px 5px #999;
-    padding:40px;
-    padding-top:30px;
-    background: black;
-    font-family: "Andale Mono";
-}
-.holder p {
-    color:#0F0;
-    font-size:14px;
-    margin:0px;
-    padding:0px;
-}
-.holder .title {
-    color:white;
-    font-size:25px;
-    margin-top:0px;
-    margin-bottom:10px;
-}
-.holder a {
-    color:#0f0;   
-}
+  .tg  {border-collapse:collapse;border-spacing:0;}
+  .tg td{font-family:Arial, sans-serif;font-size:14px;padding:10px 5px;border-style:solid;border-width:1px;overflow:hidden;word-break:normal;}
+  .tg th{font-family:Arial, sans-serif;font-size:14px;font-weight:normal;padding:10px 5px;border-style:solid;border-width:1px;overflow:hidden;word-break:normal;}
+  .tg .tg-slkj{font-family:"Lucida Console", Monaco, monospace !important;;text-align:center}
+  .tg .tg-m2jw{font-family:"Lucida Console", Monaco, monospace !important;;text-align:center;vertical-align:top}
   </style>
+  <table class="tg">
+    <tr>
+      <th class="tg-slkj">Date</th>
+      <th class="tg-slkj">Event</th>
+    </tr>
+    <tr>
+      <td class="tg-slkj">01/03/2016 (Mon)</td>
+      <td class="tg-slkj">Registration Opens</td>
+    </tr>
+    <tr>
+      <td class="tg-slkj">08/04/2016 (Fri)</td>
+      <td class="tg-slkj">Registration Closes</td>
+    </tr>
+    <tr>
+      <td class="tg-m2jw">09/04/2016 (Sat)</td>
+      <td class="tg-m2jw">Start of Qualifiers</td>
+    </tr>
+    <tr>
+      <td class="tg-m2jw">15/04/2016 (Fri)</td>
+      <td class="tg-m2jw">Closing of Qualifiers</td>
+    </tr>
+    <tr>
+      <td class="tg-m2jw">17/04/2016 (Mon)</td>
+      <td class="tg-m2jw">Announcement of Qualifiers Result</td>
+    </tr>
+    <tr>
+      <td class="tg-m2jw">11/06/2016 (Sat)</td>
+      <td class="tg-m2jw">X-CTF 2016</td>
+    </tr>
+  </table>
 
-  </div>
-      <section id="main_content">
-      <h1> Welcome to X CTF 2016!</h1>
+  <h2> Competition Day </h2>
+  <p>So what happens on the actual X-CTF? Below is an overview of the entire event.</p>
 
+  <style type="text/css">
+  .tg  {border-collapse:collapse;border-spacing:0;}
+  .tg td{font-family:Arial, sans-serif;font-size:14px;padding:10px 5px;border-style:solid;border-width:1px;overflow:hidden;word-break:normal;}
+  .tg th{font-family:Arial, sans-serif;font-size:14px;font-weight:normal;padding:10px 5px;border-style:solid;border-width:1px;overflow:hidden;word-break:normal;}
+  .tg .tg-slkj{font-family:"Lucida Console", Monaco, monospace !important;;text-align:center}
+  .tg .tg-kkwu{font-weight:bold;font-family:"Lucida Console", Monaco, monospace !important;;text-align:center}
+  .tg .tg-m2jw{font-family:"Lucida Console", Monaco, monospace !important;;text-align:center;vertical-align:top}
+  </style>
+  <table class="tg">
+    <tr>
+      <th class="tg-kkwu">Time</th>
+      <th class="tg-slkj">Programme</th>
+    </tr>
+    <tr>
+      <td class="tg-slkj">0830hrs - 0900hrs</td>
+      <td class="tg-slkj">Registration</td>
+    </tr>
+    <tr>
+      <td class="tg-slkj">0900hrs - 0930hrs</td>
+      <td class="tg-slkj">Welcome Address and Competition Briefing</td>
+    </tr>
+    <tr>
+      <td class="tg-slkj">0930hrs - 1730hrs</td>
+      <td class="tg-slkj">X-CTF Competition*</td>
+    </tr>
+    <tr>
+      <td class="tg-slkj">1730hrs - 1800hrs</td>
+      <td class="tg-slkj">Tea Break &amp; Networking</td>
+    </tr>
+    <tr>
+      <td class="tg-slkj">1800hrs - 1830hrs</td>
+      <td class="tg-slkj">Results Announcement &amp; Prize Presentation</td>
+    </tr>
+    <tr>
+      <td class="tg-m2jw">1830hrs</td>
+      <td class="tg-m2jw">End of Programme</td>
+    </tr>
+  </table>
 
-<p>X-CTF 2016 is a cyber security competition initiative by NUS GreyHats that will be held in NUS School of Computing (SoC) on 11th June 2016. In the competition, student teams from various tertiary institutes will compete to solve challenges which are set by an independent body.</p>
+  <p><i>*Note: <br>
+  1. Lunch will be catered and will be served at 1200hrs. Participants will be informed of arrival of food and are to consume it at their own discretion within the recommended safe for consumption period.</i></p>
+  <p><i>2. Venue of Competition: X-CTF is expected to be held at NUS SoC Seminar Room 1. Details may be updated periodically.</i></p>
 
-<p>So why wait? Sign up right away at the following link: </p>
-<a href="#">Sign up for X-CTF 2016 </a>
+  <hr>
 
-<hr>
-<h2> Competition Details </h2>
-<p>The competition is open to all students from tertiary institutes that offer cyber security course(s). Participants are required to form a team of four to take part in the competition. The team will then have to participate in the qualifiers and two teams from each institution with the top scores will be selected to participate in the competition. It is estimated that 2 teams of 4 students from 11 institutions will be competing in the finals.</p>
+  <h2>Prizes</h2>
+  <p>And the section you are eagerly waiting for... PRIZES!</p>
+  <style type="text/css">
+  .tg  {border-collapse:collapse;border-spacing:0;}
+  .tg td{font-family:Arial, sans-serif;font-size:14px;padding:10px 5px;border-style:solid;border-width:1px;overflow:hidden;word-break:normal;}
+  .tg th{font-family:Arial, sans-serif;font-size:14px;font-weight:normal;padding:10px 5px;border-style:solid;border-width:1px;overflow:hidden;word-break:normal;}
+  .tg .tg-slkj{font-family:"Lucida Console", Monaco, monospace !important;;text-align:center}
+  .tg .tg-kkwu{font-weight:bold;font-family:"Lucida Console", Monaco, monospace !important;;text-align:center}
+  </style>
+  <table class="tg">
+    <tr>
+      <th class="tg-kkwu">Standings</th>
+      <th class="tg-kkwu">Prizes</th>
+    </tr>
+    <tr>
+      <td class="tg-slkj">1st Place</td>
+      <td class="tg-slkj">Challenge Trophy + $4,000 cash or cash equivalent prize</td>
+    </tr>
+    <tr>
+      <td class="tg-slkj">2nd Place</td>
+      <td class="tg-slkj">$2,000 cash or cash equivalent prize</td>
+    </tr>
+    <tr>
+      <td class="tg-slkj">Third Place</td>
+      <td class="tg-slkj">$1,000 cash or cash equivalent prize</td>
+    </tr>
+  </table>
+  <p>Excited? Why wait... <a href="#intro">Sign up right now!</a> </p>
 
-<h3>So what exactly is X-CTF? </h3>
-<p>“X-CTF” is the abbreviation for “Cross Varsity - Capture The Flag” competition. It is a cyber security competition organized annually in a controlled environment where teams from all tertiary institutes are welcomed to participate in.
-The competition will be held in the duration of eight hours and each team will be given the same set of challenges to crack in order to retrieve a “flag”. The flag will be converted to points upon submission to the panel and the team with the highest amount of points will emerge as champion.</p>
+  <h2> About the Organisers </h2>
+  <p>X-CTF 2016 is organised by NUS Greyhats. NUS GreyHats is a special interest group designed to spark students’ interest in information security and advance the level of security proficiency towards the aim of contributing to the growing need for cyber defenders in the government and private sectors.
+  </p>
 
-<h3>Rules of X-CTF</h3>
-<p>During the CTF,
-<li> Do not attack the PCs of other competitors. </li>
-<li> Do not attack the scoring server. </li>
-<li> Do not attack anything outside of the CTF environment. </li>
-<li> Do not delete or modify flags. </li>
-<li> ARP poisoning or any form of man-in-the-middle attack is prohibited. This action is subject to disqualification. </li>
-<li> Sharing flags or solutions is prohibited. This action is subject to disqualification. </li>
-<li> Brute-forcing flags will not be tolerated. </li>
-<li> Denial of service attacks on any challenge will not be tolerated, unless the challenge calls for such an attack. </li>
-<li> If you find any bug in the system, let us know. We might give you some bonus points. </li>
-</p>
+  <h2>Contact Us</h2>
+  <p>You can find out more about NUS Greyhats <a href="http://nusgreyhats.org/">here</a>.
+  If you have any enquiries or requests, feel free to <a href="mailto:contact@nusgreyhats.org"> email</a> us.
+  </p>
 
-<h2> Timeline of Event </h2>
-<style type="text/css">
-.tg  {border-collapse:collapse;border-spacing:0;}
-.tg td{font-family:Arial, sans-serif;font-size:14px;padding:10px 5px;border-style:solid;border-width:1px;overflow:hidden;word-break:normal;}
-.tg th{font-family:Arial, sans-serif;font-size:14px;font-weight:normal;padding:10px 5px;border-style:solid;border-width:1px;overflow:hidden;word-break:normal;}
-.tg .tg-slkj{font-family:"Lucida Console", Monaco, monospace !important;;text-align:center}
-.tg .tg-m2jw{font-family:"Lucida Console", Monaco, monospace !important;;text-align:center;vertical-align:top}
-</style>
-<table class="tg">
-  <tr>
-    <th class="tg-slkj">Date</th>
-    <th class="tg-slkj">Event</th>
-  </tr>
-  <tr>
-    <td class="tg-slkj">01/03/2016 (Mon)</td>
-    <td class="tg-slkj">Registration Opens</td>
-  </tr>
-  <tr>
-    <td class="tg-slkj">08/04/2016 (Fri)</td>
-    <td class="tg-slkj">Registration Closes</td>
-  </tr>
-  <tr>
-    <td class="tg-m2jw">09/04/2016 (Sat)</td>
-    <td class="tg-m2jw">Start of Qualifiers</td>
-  </tr>
-  <tr>
-    <td class="tg-m2jw">15/04/2016 (Fri)</td>
-    <td class="tg-m2jw">Closing of Qualifiers</td>
-  </tr>
-  <tr>
-    <td class="tg-m2jw">17/04/2016 (Mon)</td>
-    <td class="tg-m2jw">Announcement of Qualifiers Result</td>
-  </tr>
-  <tr>
-    <td class="tg-m2jw">11/06/2016 (Sat)</td>
-    <td class="tg-m2jw">X-CTF 2016</td>
-  </tr>
-</table>
-
-<h2> Competition Day </h2>
-<p>So what happens on the actual X-CTF? Below is an overview of the entire event.</p>
-
-<style type="text/css">
-.tg  {border-collapse:collapse;border-spacing:0;}
-.tg td{font-family:Arial, sans-serif;font-size:14px;padding:10px 5px;border-style:solid;border-width:1px;overflow:hidden;word-break:normal;}
-.tg th{font-family:Arial, sans-serif;font-size:14px;font-weight:normal;padding:10px 5px;border-style:solid;border-width:1px;overflow:hidden;word-break:normal;}
-.tg .tg-slkj{font-family:"Lucida Console", Monaco, monospace !important;;text-align:center}
-.tg .tg-kkwu{font-weight:bold;font-family:"Lucida Console", Monaco, monospace !important;;text-align:center}
-.tg .tg-m2jw{font-family:"Lucida Console", Monaco, monospace !important;;text-align:center;vertical-align:top}
-</style>
-<table class="tg">
-  <tr>
-    <th class="tg-kkwu">Time</th>
-    <th class="tg-slkj">Programme</th>
-  </tr>
-  <tr>
-    <td class="tg-slkj">0830hrs - 0900hrs</td>
-    <td class="tg-slkj">Registration</td>
-  </tr>
-  <tr>
-    <td class="tg-slkj">0900hrs - 0930hrs</td>
-    <td class="tg-slkj">Welcome Address and Competition Briefing</td>
-  </tr>
-  <tr>
-    <td class="tg-slkj">0930hrs - 1730hrs</td>
-    <td class="tg-slkj">X-CTF Competition*</td>
-  </tr>
-  <tr>
-    <td class="tg-slkj">1730hrs - 1800hrs</td>
-    <td class="tg-slkj">Tea Break &amp; Networking</td>
-  </tr>
-  <tr>
-    <td class="tg-slkj">1800hrs - 1830hrs</td>
-    <td class="tg-slkj">Results Announcement &amp; Prize Presentation</td>
-  </tr>
-  <tr>
-    <td class="tg-m2jw">1830hrs</td>
-    <td class="tg-m2jw">End of Programme</td>
-  </tr>
-</table>
-
-<p><i>*Note: <br>
-1. Lunch will be catered and will be served at 1200hrs. Participants will be informed of arrival of food and are to consume it at their own discretion within the recommended safe for consumption period.</i></p>
-<p><i>2. Venue of Competition: X-CTF is expected to be held at NUS SoC Seminar Room 1. Details may be updated periodically.</i></p>
-
-<hr>
-
-<h2>Prizes</h2>
-<p>And the section you are eagerly waiting for... PRIZES!</p>
-<style type="text/css">
-.tg  {border-collapse:collapse;border-spacing:0;}
-.tg td{font-family:Arial, sans-serif;font-size:14px;padding:10px 5px;border-style:solid;border-width:1px;overflow:hidden;word-break:normal;}
-.tg th{font-family:Arial, sans-serif;font-size:14px;font-weight:normal;padding:10px 5px;border-style:solid;border-width:1px;overflow:hidden;word-break:normal;}
-.tg .tg-slkj{font-family:"Lucida Console", Monaco, monospace !important;;text-align:center}
-.tg .tg-kkwu{font-weight:bold;font-family:"Lucida Console", Monaco, monospace !important;;text-align:center}
-</style>
-<table class="tg">
-  <tr>
-    <th class="tg-kkwu">Standings</th>
-    <th class="tg-kkwu">Prizes</th>
-  </tr>
-  <tr>
-    <td class="tg-slkj">1st Place</td>
-    <td class="tg-slkj">Challenge Trophy + $4,000 cash or cash equivalent prize</td>
-  </tr>
-  <tr>
-    <td class="tg-slkj">2nd Place</td>
-    <td class="tg-slkj">$2,000 cash or cash equivalent prize</td>
-  </tr>
-  <tr>
-    <td class="tg-slkj">Third Place</td>
-    <td class="tg-slkj">$1,000 cash or cash equivalent prize</td>
-  </tr>
-</table>
-<p>Excited? Why wait... Sign up right now! </p>
-
-<h2> About the Organisers </h2>
-<p>X-CTF 2016 is organised by NUS Greyhats. NUS GreyHats is a special interest group designed to spark students’ interest in information security and advance the level of security proficiency towards the aim of contributing to the growing need for cyber defenders in the government and private sectors.
-</p>
-
-<h2>Contact Us</h2>
-<p>You can find out more about NUS Greyhats <a href="http://nusgreyhats.org/">here</a>.
-If you have any enquiries or requests, feel free to <a href="mailto:contact@nusgreyhats.org"> email</a> us.
-</p>
-
-    
-  </body>
-</html>
+      
+    </body>
+  </html>
